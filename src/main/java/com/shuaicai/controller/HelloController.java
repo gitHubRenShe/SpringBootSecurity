@@ -37,4 +37,10 @@ public class HelloController {
 
         return new ResponseResult(200,"testCors");
     }
+
+    @GetMapping("/test01")
+    public ResponseResult test01() {
+
+        return new ResponseResult(200,"test01");
+    }
 }
